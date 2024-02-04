@@ -814,3 +814,58 @@ h4 {
   overflow      : hidden;
   border-radius : var(--border-radius);
 }
+.content-form {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form{
+  padding: 10px 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+  border-radius: 20px;
+  text-align: center;
+  width: 340px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+label{
+  color: #121F26;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+input,textarea{
+  padding: 17px 25px;
+  border-radius: 25px;
+  margin-bottom: 25px;
+  background-color: #FAFDFF;
+  border: 2px solid var(--primary-color);
+  color: #121F26;
+  outline: none;
+}
+
+input::placeholder,textarea::placeholder{
+  color: #b5cab6;
+}
+
+@media(max-width:991px) {
+  
+  .content-form{
+    padding: 30px;
+  }
+  form{
+    padding: 50px;
+    width:100%
+  }
+  input{
+    padding: 15px;
+  }
+}
