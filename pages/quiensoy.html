@@ -1,93 +1,97 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Normalize CSS -->
-    <link
-      rel="stylesheet"
-      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
-    />
-    <!-- Estilos personalizados -->
-    <link rel="stylesheet" href="/styles/styles.css" />
-    <!-- JAM icons -->
-    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css" />
-    <title>¿Quien soy? | Adriana Borbón Carvajal</title>
-  </head>
 
-  <body>
-    <!-- Cabecera -->
-    <header class="main-header">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Normalize CSS -->
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="/styles/styles.css" />
+  <!-- JAM icons -->
+  <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css" />
+  <title>¿Quien soy? | Adriana Borbón Carvajal</title>
+</head>
+
+<body>
+  <!-- Cabecera -->
+  <header class="main-header">
+    <div class="content-wrapper">
+      <a href="/index.html">
+        <img src="/images/AvatarMaker (1).png" alt="Logo avatar personal" />
+      </a>
+      <span id="open-menu-button" class="jam jam-menu"></span>
+      <nav id="main-menu" class="main-menu">
+        <span id="close-menu-button" class="jam jam-close"></span>
+        <ul>
+          <li>
+            <a href="/">Inicio</a>
+          </li>
+          <li>
+            <a href="/pages/quiensoy.html">¿Quien soy?</a>
+          </li>
+          <li>
+            <a href="/pages/proyectos.html">Material de cursos</a>
+          </li>
+          <li>
+            <a href="/pages/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="about-us section-container">
+      <h1>¿Quien soy?</h1>
       <div class="content-wrapper">
-        <a href="/index.html">
-          <img src="/images/AvatarMaker (1).png" alt="Logo avatar personal" />
-        </a>
-        <span id="open-menu-button" class="jam jam-menu"></span>
-        <nav id="main-menu" class="main-menu">
-          <span id="close-menu-button" class="jam jam-close"></span>
-          <ul>
-            <li>
-              <a href="/">Inicio</a>
-            </li>
-            <li>
-              <a href="/pages/quiensoy.html">¿Quien soy?</a>
-            </li>
-            <li>
-              <a href="/pages/proyectos.html">Material de cursos</a>
-            </li>
-            <li>
-              <a href="/pages/contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main class="main">
-        <section class="about-us section-container">
-            <h1>¿Quien soy?</h1>
-            <div class="content-wrapper">
-                <article class="about-item">
-                    <div class="image container">
-                        <img src="/images/Olá - Relaxing.png" alt="Sobre mi">
-                    </div>
-                    <div>
-                        <h2>Sobre mi</h2>
-                        <p>Me llamo Adriana Borbón Carvajal, soy Bachiller en Ingeniera en Sistemas. Me encuentro actualmente cursando 
-                          un Postgrado en Desarrollo Web en la Universidad Cenfotec. <br>
+        <article class="about-item">
+          <div class="image-container">
+            <img src="/images/Olá - Relaxing.png" alt="Sobre mi">
+          </div>
+          <div>
+            <h2>Sobre mi</h2>
+            <p>Me llamo Adriana Borbón Carvajal, soy Bachiller en Ingeniera en Sistemas. Me encuentro actualmente
+              cursando
+              un Postgrado en Desarrollo Web en la Universidad Cenfotec. <br>
 
-                          Mi trabajo actual es como Analista Programadora en un Banco privado, empresa para la cual desarrollo de manera regional.
-                        </p>
-                    </div>
-                </article>
-                <article class="about-item">
-                    <div class="image container">
-                        <img src="/images/Fitz - Hobby.png" alt="Sobre mi">
-                    </div>
-                    <div>
-                        <h2>Pasatiempos</h2>
-                        <p>Me encanta el deporte, toda mi vida me he visto envuelta en diferentes actividades deportivas. Jugué fútbol en 
-                          primera división, fui la primera  mujer en Centroamerica en certificarse en temas de escalada y hoy en día disfruto
-                          del deporte jugando Pádel.
-                        </p>
-                    </div>
-                </article>
-                <article class="about-item">
-                    <div class="image container">
-                        <img src="/images/Cool Kids - Fresh Air.png" alt="Sobre mi">
-                    </div>
-                    <div>
-                        <h2>Interés</h2>
-                        <p>Me interesa poder ayudar a los animales, siempre que sea posible intento donar dinero en refugios o ayudar 
-                          colocando animales en condiciones de calle en casas cuna o casas permanentes.
-                        </p>
-                    </div>
-                </article>
-            </div>
-        </section>
-    </main>
-    <footer class="main-footer">
-      <p>Todos los derechos reservados © 2024 | Adriana Borbón Carvajal</p>
-    </footer>
-    <script src="/scripts/menu.js"></script>
-  </body>
+              Mi trabajo actual es como Analista Programadora en un Banco privado, empresa para la cual desarrollo de
+              manera regional.
+            </p>
+          </div>
+        </article>
+        <article class="about-item">
+          <div class="image-container">
+            <img src="/images/Fitz - Hobby.png" alt="Sobre mi">
+          </div>
+          <div>
+            <h2>Pasatiempos</h2>
+            <p>Me encanta el deporte, toda mi vida me he visto envuelta en diferentes actividades deportivas. Jugué
+              fútbol en
+              primera división, fui la primera mujer en Centroamerica en certificarse en temas de escalada y hoy en día
+              disfruto
+              del deporte jugando Pádel.
+            </p>
+          </div>
+        </article>
+        <article class="about-item">
+          <div class="image-container">
+            <img src="/images/Cool Kids - Fresh Air.png" alt="Sobre mi">
+          </div>
+          <div>
+            <h2>Interés</h2>
+            <p>Me interesa poder ayudar a los animales, siempre que sea posible intento donar dinero en refugios o
+              ayudar
+              colocando animales en condiciones de calle en casas cuna o casas permanentes.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <p>Todos los derechos reservados © 2024 | Adriana Borbón Carvajal</p>
+  </footer>
+  <script src="/scripts/menu.js"></script>
+</body>
+
 </html>
